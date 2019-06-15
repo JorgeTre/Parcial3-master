@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.AddEmployeeActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView android:layout_width="354dp"
+                  android:layout_height="55dp"
+                  android:text="Empleado"
+                  android:textColor="#000"
+                  android:layout_marginTop="30dp"
+                  android:textAlignment="center"
+                  android:layout_gravity="center"
+                  android:textSize="24dp"/>
+
+        <EditText
+
+                android:id="@+id/edtNameE"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:hint="Nombre"
+                android:textColorHint="#bdbdbd"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:drawablePadding="10dp"
+                android:background="@drawable/redon"
+                android:layout_gravity="center"
+                />
+
+        <EditText
+                  android:id="@+id/edtJobE"
+                  android:layout_width="200dp"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="50dp"
+                  android:hint="Puesto"
+                  android:textSize="20dp"
+                  android:paddingLeft="10dp"
+                  android:textColorHint="#bdbdbd"
+                  android:textColor="#000"
+                  android:drawablePadding="10dp"
+                  android:background="@drawable/redon"
+                  android:layout_gravity="center"/>
+
+        <EditText
+                  android:id="@+id/edtDUIE"
+                  android:layout_width="200dp"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="50dp"
+                  android:hint="DUI"
+                  android:textSize="20dp"
+                  android:textColorHint="#bdbdbd"
+                  android:textColor="#000"
+                  android:inputType="number"
+                  android:paddingLeft="10dp"
+                  android:drawablePadding="10dp"
+                  android:background="@drawable/redon"
+                  android:layout_gravity="center"/>
+
+        <Button
+                android:id="@+id/btnAddE"
+                android:layout_width="131dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="50dp"
+                android:textColorHint="#bdbdbd"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Guardar"
+                android:layout_marginBottom="50dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/marcos"
+                android:layout_gravity="center"
+                />
+
+
+    </LinearLayout>
+</ScrollView>
